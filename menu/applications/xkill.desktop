@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Xkill
+Name[ru]=Аварийное закрытие программы
+Comment=Kill X clients
+Comment[ru]=Закрытие зависших окон
+Icon=xkill
+Exec=xkill
+TryExec=xkill
+Terminal=false
+Categories=System;Monitor;

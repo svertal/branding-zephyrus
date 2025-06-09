@@ -1,0 +1,5 @@
+user-background=false
+theme-name=@GTK_THEME@
+icon-theme-name=@ICON_THEME@
+indicators=~clock;~spacer;~host;~spacer;~session;~layout;~a11y;~power
+clock-format=%A, %x %H:%M

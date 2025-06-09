@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Wine Command Prompt
+Name[ru]=Командная строка Wine
+Comment=Wine Command Prompt
+Comment[ru]=Командная строка Wine
+GenericName=Wine Command Prompt
+GenericName[ru]=Командная строка Wine
+Exec=wineconsole cmd
+TryExec=wineconsole cmd
+Terminal=false
+Type=Application
+Icon=wine
+Categories=Wine;Utility;

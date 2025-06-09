@@ -1,0 +1,154 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+    <Name>Xfce</Name>
+    <AppDir>/usr/share/slinux-style/applications</AppDir>
+
+    <Menu>
+        <Name>ShallowSettings</Name>
+        <Directory>altlinux-settings-desktop.directory</Directory>
+        <Menu>
+            <Name>WineSettings</Name>
+            <Directory>altlinux-wine.directory</Directory>
+            <Include>
+                <And>
+                    <Category>Wine</Category>
+                    <Category>Settings</Category>
+                </And>
+            </Include>
+        </Menu>
+        <Include>
+            <Category>Settings</Category>
+        </Include>
+        <Exclude>
+            <Category>Wine</Category>
+            <Category>X-XFCE-SettingsDialog</Category>
+        </Exclude>
+
+        <Layout>
+            <Filename>xfce-settings-manager.desktop</Filename>
+            <Filename>acc.desktop</Filename>
+            <Separator/>
+            <Merge type="all"/>
+        </Layout>
+
+        <Menu>
+            <Name>Screensavers</Name>
+            <Directory>altlinux-screensaver.directory</Directory>
+            <Include>
+                <Category>Screensaver</Category>
+            </Include>
+        </Menu>
+    </Menu>
+
+    <Layout>
+        <Filename>xfce4-run.desktop</Filename>
+        <Filename>xfce4-appfinder.desktop</Filename>
+        <Separator/>
+        <Filename>xfce4-terminal-emulator.desktop</Filename>
+        <Filename>xfce4-file-manager.desktop</Filename>
+        <Filename>xfce4-mail-reader.desktop</Filename>
+        <Filename>xfce4-web-browser.desktop</Filename>
+        <Separator/>
+        <Menuname>Settings</Menuname>
+        <Menuname>ShallowSettings</Menuname>
+        <Separator/>
+        <Merge type="all"/>
+        <Separator/>
+        <Filename>xfce4-about.desktop</Filename>
+        <Filename>xfce4-session-logout.desktop</Filename>
+    </Layout>
+
+    <Move>
+      <Old>Settings/DesktopSettings/XFCE</Old>
+      <New>Settings/NativeSettings</New>
+    </Move>
+
+    <Menu>
+        <Name>Accessories</Name>
+        <Menu>
+            <Name>WineUtils</Name>
+            <Directory>altlinux-wine.directory</Directory>
+            <Include>
+                <And>
+                    <Category>Wine</Category>
+                    <Category>Utility</Category>
+                </And>
+            </Include>
+        </Menu>
+        <Exclude>
+            <Or>
+                <Filename>xfce4-file-manager.desktop</Filename>
+                <Filename>xfce4-terminal-emulator.desktop</Filename>
+                <Filename>xfce4-about.desktop</Filename>
+                <Filename>xfce4-run.desktop</Filename>
+                <Category>Wine</Category>
+            </Or>
+        </Exclude>
+        <Menu>
+            <Name>Other</Name>
+            <Exclude>
+                <Or>
+                    <Category>X-Xfce-Toplevel</Category>
+                    <Filename>xfce4-file-manager.desktop</Filename>
+                    <Filename>xfce4-terminal-emulator.desktop</Filename>
+                    <Filename>xfce4-about.desktop</Filename>
+                    <Filename>xfce4-run.desktop</Filename>
+                </Or>
+            </Exclude>
+        </Menu>
+    </Menu>
+
+    <Menu>
+        <Name>Internet</Name>
+        <Exclude>
+            <Or>
+                <Filename>xfce4-mail-reader.desktop</Filename>
+                <Filename>xfce4-web-browser.desktop</Filename>
+            </Or>
+        </Exclude>
+    <Menu>
+        <Name>Other</Name>
+        <Exclude>
+            <Or>
+                <Filename>xfce4-mail-reader.desktop</Filename>
+                <Filename>xfce4-web-browser.desktop</Filename>
+                <Category>X-Xfce-Toplevel</Category>
+            </Or>
+        </Exclude>
+    </Menu>
+    </Menu>
+
+    <Menu>
+        <Name>System</Name>
+        <Exclude>
+            <Or>
+                <Filename>xfce4-session-logout.desktop</Filename>
+            </Or>
+        </Exclude>
+        <Layout>
+        <Filename>indexhtml.desktop</Filename>
+        <Filename>install2.desktop</Filename>
+        <Separator/>
+        <Merge type="all"/>
+        </Layout>
+        <Menu>
+            <Name>Other</Name>
+            <Exclude>
+                <Or>
+                    <Filename>xfce4-session-logout.desktop</Filename>
+                    <Category>X-Xfce-Toplevel</Category>
+                </Or>
+            </Exclude>
+        </Menu>
+    </Menu>
+
+    <Include>
+        <Category>X-Xfce-Toplevel</Category>
+    </Include>
+
+    <MergeFile>applications-menueditor.menu</MergeFile>
+    <MergeFile>xfce-applications-menueditor.menu</MergeFile>
+
+</Menu>

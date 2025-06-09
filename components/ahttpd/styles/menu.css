@@ -1,0 +1,188 @@
+/* c0dbdb */
+
+#logo-td {
+	border-left: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:left;
+/*	background: #fff;*/
+	padding-top: 10px;
+	background: url(/design/images/gradient-top.png) 0% 0% repeat-x;
+	width: 275px;
+	-moz-border-radius-topleft: 1em;
+	-webkit-border-radius-topleft: 1em;
+	-khtml-border-radius-topleft: 1em;
+	border-radius-topleft: 1em;
+	-moz-border-radius-bottomleft: 1em;
+	-webkit-border-radius-bottomleft: 1em;
+	-khtml-border-radius-bottomleft: 1em;
+	border-radius-bottomleft: 1em;
+}
+
+#logo-td img {
+	background: url(/design/images/logo.png) no-repeat;
+	width: 275px; /*325*/
+	height: 30px;
+}
+
+#help-td {
+	/*border-left: none;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	width: 20px;
+	text-align:left;
+	color: #fff;
+/*        border-bottom: 1px solid #056560;;*/
+	background: url(/design/images/gradient-top.png) 0% 0% repeat-x;
+/*	-moz-border-radius-topleft: 1em;
+	-moz-border-radius-topright: 1em;
+        -webkit-border-radius-topleft: 1em;
+        -khtml-border-radius-topleft: 1em;
+        border-radius-topleft: 1em; */
+}
+
+#locale-td {
+/*	border-left: none; */
+	padding-left: 10px;
+	padding-top: 10px;
+	color: #fff;
+	padding-right: 10px;
+	text-align:center;
+	width: 100px;
+	background: url(/design/images/gradient-top.png) 0% 0% repeat-x;
+/*	border-left: 1px solid #056560;;
+	border-right: 1px solid #056560;;
+	border-bottom: 1px solid #056560;; */
+	-moz-border-radius-topright: 1em;
+        -webkit-border-radius-topright: 1em;
+        -khtml-border-radius-topright: 1em;
+        border-radius-topright: 1em;
+}
+
+#hostinfo-td {
+/*	border-left:  1px solid #056560;;
+	border-top:  1px solid #056560;;
+	border-right:  1px solid #056560;; */
+	background: url(/design/images/gradient-top.png) 0% 0% repeat-x;
+/*	-moz-border-radius-topleft: 1em;
+        -webkit-border-radius-topleft: 1em;
+        -khtml-border-radius-topleft: 1em;
+        border-radius-topleft: 1em;
+	*/
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	text-align: left;
+
+	color: #fff; /*#0574B2;*/
+	font-weight: bold;
+	text-decoration: none;
+	font-size:large;
+}
+
+.expanded {
+/*	padding-left: 40px;*/
+    width: 100%;
+}
+
+
+
+/* main menu */
+
+#menu-td {
+	padding-right: 12px;
+}
+
+#main {
+	padding: 10px 20px;
+}
+
+
+#main-td {
+/*	padding: 10px 20px;*/
+/*	background-color: #baeaea;*/
+	background-color: #fff;
+	width: 100%;
+	/*border: 1px solid #056560;;*/
+	-moz-border-radius-bottomright: 1em;
+        -webkit-border-radius-bottomright: 1em;
+        -khtml-border-radius-bottomright: 1em;
+        border-radius-bottomright: 1em;
+	-moz-border-radius-bottomleft: 1em;
+        -webkit-border-radius-bottomleft: 1em;
+        -khtml-border-radius-bottomleft: 1em;
+        border-radius-bottomleft: 1em;
+}
+
+.menu-item-normal a {
+	font-weight: normal;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+.menu-item-selected a {
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.menu-group-name  {
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #fff;
+	text-decoration: none;
+	/*background-color:#baeaea;*/
+	padding-top: 3px;
+	background: url(/design/images/gradient.png) 0% 0% repeat-x;
+	font-weight: bold;
+	-moz-border-radius-topright: 1em;
+	-webkit-border-radius-topright: 1em;
+	-khtml-border-radius-topright: 1em;
+	border-radius-topright: 1em;
+	-moz-border-radius-topleft: 1em;
+	-webkit-border-radius-topleft: 1em;
+	-khtml-border-radius-topleft: 1em;
+	border-radius-topleft: 1em;
+}
+
+.menu-group {
+	padding-bottom: 5px;
+	/*width:250px;*/
+/*	padding-right: 5px;*/
+	padding-top: 5px;
+	border-collapse: collapse;
+	background: url(/design/images/gradient-menu.png) 0% 0% repeat-x;
+/*	border-bottom: 1px solid #056560;;
+	border-left: 1px solid #056560;;
+	border-right: 1px solid #056560;; */
+	-moz-border-radius-bottomright: 1em;     /* mozilla 1.5 */
+	-webkit-border-radius-bottomright: 1em;  /* safari 3 */
+	-khtml-border-radius-bottomright: 1em;   /* Konqueror */
+	border-radius-bottomright: 1em;          /* CSS3 */
+	-moz-border-radius-bottomleft: 1em;     /* mozilla 1.5 */
+	-webkit-border-radius-bottomleft: 1em;  /* safari 3 */
+	-khtml-border-radius-bottomleft: 1em;   /* Konqueror */
+	border-radius-bottomleft: 1em;          /* CSS3 */
+}
+
+#help-popup {
+	padding-left: 10px;
+	width: 95%;
+	background-color: #EEF2F5;
+/*	padding-right: 5px;
+	padding-top: 10px;*/
+}
+
+.hresizeable {
+	width: 100%;
+	height: 7px;
+	background:#cdcdcd url(/design/images/hgrabber.gif) no-repeat scroll 45%;
+	cursor: s-resize;
+}
+
+.hresizeable:hover {
+	background-color: #178093;
+}

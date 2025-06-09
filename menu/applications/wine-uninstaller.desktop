@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Wine Software Uninstaller
+Name[ru]=Удаление программ
+Comment=Uninstall software from Wine
+Comment[ru]=Удаление программ из Wine
+GenericName=Wine Software Uninstaller
+GenericName[ru]=Удаление программ
+Exec=wine uninstaller
+TryExec=wine uninstaller
+Terminal=false
+Type=Application
+Icon=wine-uninstaller
+Categories=Wine;Settings;

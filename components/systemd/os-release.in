@@ -1,0 +1,10 @@
+NAME="@NAME@"
+VERSION="@VERSION@@STATUS@ (@CODENAME@)"
+ID=zephyrus
+VERSION_ID=@VERSION@
+PRETTY_NAME="@NAME@ @VERSION@@STATUS@ (@CODENAME@)"
+ANSI_COLOR="1;36"
+CPE_NAME="cpe:/o:alt:slinux:@VERSION@"
+BUILD_ID="@NAME@ @VERSION@@STATUS@"
+HOME_URL="https://www.basealt.ru/simplylinux"
+BUG_REPORT_URL="https://bugs.altlinux.org/"

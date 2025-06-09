@@ -1,0 +1,7 @@
+[Plymouth Theme]
+Name=Zephyrus
+Description=Boot splash theme for Zephyrus
+ModuleName=script
+[script]
+ImageDir=/usr/share/plymouth/themes/zephyrus
+ScriptFile=/usr/share/plymouth/themes/zephyrus/zephyrus.script

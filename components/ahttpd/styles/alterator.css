@@ -1,0 +1,173 @@
+body {
+	background-color: #cdcdcd;/*#92b2b8;/*#67999a;/*#c0dbdb;*/
+	color: #178093;
+	margin: 0px;
+	padding: 10px;
+	font-family : Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+a {
+	color: #178093;
+	font-weight: bold;
+}
+
+table {
+	font-size: 9pt;
+	border-color: #178093;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 0px 7px 3px 0px;
+}
+
+tr {
+	vertical-align: top;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #5ac;
+}
+
+h1 {
+	text-align: center;
+	margin: 0px;
+}
+
+textarea, select, input.text {
+	border: 1px solid #178093;
+	font-size: 8pt;
+	margin: 1px 3px 1px 0px;
+	padding: 1px 3px;
+}
+
+.btn {
+	background-color: #cdcdcd;
+	color: #178093;
+	border: 1px solid #178093;
+	cursor: pointer;
+	font-size: 9pt;
+	padding: 0px 3px;
+}
+
+.btn:hover {
+	background-color: #94c4cd;
+}
+
+.error-message {
+	background-color: #FFCACA;
+	border: 1px solid #FF6060;
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom:10px;
+}
+
+.info-name {
+	font-size: 18pt;
+	border-bottom: 2px solid #178093;
+}
+
+.info-description {
+	font-size: 12pt;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+
+.frame-table {
+	border-style:solid;
+	border-width:1px;
+	margin: 3px;
+}
+
+.frame-table td, .frame-table th {
+	border-style:solid;
+	border-width:1px;
+	padding: 1px 1px 3px 3px;
+}
+
+.disabled {
+	color: #6e6e6e;
+}
+
+.alterator-progress {
+	border: 1px solid #178093;
+	height: 20px;
+	width: 200px;
+	padding: 2px;
+	background-color: #FFFFFF;
+}
+
+.alterator-progress div {
+	background-color: #178093;
+	height: 20px;
+}
+
+.year {
+	font-weight: bold;
+	background-color: #baeaea;
+}
+
+.week {
+	border-style:solid;
+	border-width:1px;
+	background-color: white;
+}
+
+.today {
+	border-style:solid;
+	border-width:1px;
+	background-color: pink;
+	cursor: pointer;
+}
+
+.day {
+	border-style:solid;
+	border-width:1px;
+	background-color: #baeaea;
+	cursor: pointer;
+}
+
+.day:hover {
+	background-color: #178093;
+}
+
+.alterator-dateedit-calendar table {
+	width: 100%;
+	text-align: center;
+	background-color: #baeaea;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.alterator-dateedit-calendar td {
+	padding: 3px;
+}
+
+.alterator-dateedit-button {
+	vertical-align:middle;
+	cursor:pointer;
+	background: url(/design/images/dateedit.png) no-repeat;
+	width: 15px;
+	height: 16px;
+}
+
+table.alterator-listbox {
+	border: solid 1px;
+}
+
+table.alterator-listbox th {
+	background-color:  #cdcdcd;
+	font-weight: bold;
+	border: solid 1px;
+	padding: 3px;
+}
+
+table.alterator-listbox td {
+	background: #ffffff;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	padding: 3px;
+}

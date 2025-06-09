@@ -1,0 +1,47 @@
+/* Customize any plain widget that is a child of a QMainWindow. */
+.AWizardFace {
+    border-style: none;
+/*    background-image: url(:/design/bg.png);*/
+    background-color: #8a8e8f;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.AWizardFace #wizardface_title_text {
+    color: white;
+}
+
+.ACenterFace {
+    border-style: none;
+}
+
+.ACenterFace #modules_view {
+    background-color: white;
+}
+
+/* Nice WindowsXP-style password character for password line edits. */
+QLineEdit {
+    lineedit-password-character: 9679;
+}
+
+/* Customize tooltips. */
+QToolTip {
+    background-color: rgb(200,200,255);
+    border-color: darkslategray;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    font: bold;
+    border-radius: 3px;
+    opacity: 200;
+}
+
+/* Selection in lists */
+QListView, QTreeView, QTableView {
+    selection-color: white;
+    selection-background-color: #f3921a;
+}
+
+QProgressBar::chunk {
+    background-color: #f3921a;
+}

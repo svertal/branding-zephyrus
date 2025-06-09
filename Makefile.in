@@ -1,0 +1,13 @@
+STATUS=@STATUS@
+THEME=@THEME@
+NAME=@NAME@
+VERSION=@VERSION@
+ARCH=$(shell arch)
+ALTERATOR_BROWSER_WEIGHT=@ALTERATOR_BROWSER_WEIGHT@
+
+.PHONY: all install all-arch-install
+
+all: graphics
+
+include components.mk
+install: browser-qt ahttpd indexhtml grub-install system-settings-install

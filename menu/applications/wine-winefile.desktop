@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Wine File
+Name[ru]=Менеджер файлов
+Comment=Wine File Browser
+Comment[ru]=Файловый менеджер Wine
+GenericName=Wine File
+GenericName[ru]=Менеджер файлов Wine
+Exec=winefile
+TryExec=winefile
+Terminal=false
+Type=Application
+Icon=wine-winefile
+Categories=Wine;Utility;Emulator;

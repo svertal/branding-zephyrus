@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Wine Notepad
+Name[ru]=Блокнот Wine
+Comment=Wine Text Editor
+Comment[ru]=Текстовый редактор Wine
+GenericName=Wine Notepad
+GenericName[ru]=Блокнот Wine
+Exec=notepad
+TryExec=notepad
+Terminal=false
+Type=Application
+Icon=wine-notepad
+Categories=Wine;Utility;

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Disto name in title -->
+    <title>@NAME@ @VERSION@@STATUS@</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="images/product2.png" rel="shortcut icon" type="image/png" />
+</head>
+
+<body>
+    <section id="content">
+
+        <!-- Language selection -->
+        <div id="languages">
+            <a href="index-en.html">English</a>
+        </div>
+
+        <!-- Disto name -->
+        <div id="title">@NAME@ @VERSION@</div>
+
+        <div id="main">
+            <!-- Links columns -->
+            <div class="grid">
+                <div class="grid-title"><img src="images/Logo_light_gray_basealt.png" alt="Базальт СПО"></div>
+                <div class="grid-title"><img src="images/Logo_light_gray_simply_linux.png"
+                        alt="Дистрибутив ОС «@NAME@»"></div>
+                <div class="grid-title"><img src="images/Logo_light_gray_usefull_links.png" alt="Полезные ссылки"></div>
+            </div>
+            <div class="grid">
+                <div class="grid-cell side-pane">
+                    <ul>
+                        <li><a href="https://www.basealt.ru">Сайт компании</a></li>
+                        <li><a href="https://www.basealt.ru/contacts/">Контакты</a></li>
+                        <li><a href="https://www.basealt.ru/support/">Техническая поддержка</a></li>
+                        <li><a href="https://vk.com/altlinux">Группа ВКонтакте</a></li>
+                        <li><a href="https://t.me/alt_linux">Телеграм-канал</a></li>
+                        <li><a href="https://dzen.ru/id/621e0fc88b26266f04745c3f">Видеоблог на Дзен</a></li>
+                    </ul>
+                </div>
+                <div class="grid-cell central-pane">
+                    <ul>
+                        <li><a href="https://www.basealt.ru/simplylinux">Страница продукта</a></li>
+                        <li><a href="file:///usr/share/doc/documentation/index.html">Руководство пользователя</a></li>
+                        <li><a href="https://docs.altlinux.org/ru-RU/index.html#alt-simply">Документация онлайн</a>
+                        </li>
+                        <li><a href="https://bugzilla.altlinux.org">Сообщить об ошибке</a></li>
+                        <li><a href="https://www.basealt.ru/product-feedback">Оставить отзыв</a></li>
+                    </ul>
+                </div>
+                <div class="grid-cell side-pane">
+                    <ul>
+                        <li><a href="https://forum.altlinux.org">Форум пользователей</a></li>
+                        <li><a href="https://packages.altlinux.org/ru/p11/">Сведения о пакетной базе</a></li>
+                        <li><a href="https://altlinux.org/FAQ">Ответы на часто задаваемые вопросы</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="search">
+                <!-- Search pane -->
+                <form action="https://yandex.ru/search?text={text}" method="get">
+                    <img src="images/magnifier.png" alt="Поиск по ресурсам">
+                    <input id="search_string" type="search" name="text" size="35">
+                    <input type="hidden" name="site" value="altlinux.org">
+                    <input id="search_button" type="submit" value="Поиск в Интернете">
+                </form>
+            </div>
+
+            <!-- Copyright information -->
+            <footer id="footer">
+                <div id="left_footer">&copy; ООО «Базальт СПО», 2017-@YEAR@. Все права защищены.</div>
+                <div id="right_footer">
+                    Телефон: +7 (495) 123-4799<br>
+                    ул. Бутырская, д.75<br>
+                    Москва, Россия, 127015
+                </div>
+            </footer>
+
+        </div>
+
+    </section>
+</body>

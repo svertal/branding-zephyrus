@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(echo "ibase=16; ${1:0:2}" | bc)','$(echo "ibase=16; ${1:2:2}" | bc)','$(echo "ibase=16; ${1:4:2}" | bc)

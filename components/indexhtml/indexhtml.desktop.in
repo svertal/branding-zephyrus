@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=xdg-open /usr/share/doc/indexhtml/index.html
+StartupNotify=false
+Icon=slinux
+Name=Simply Linux @VERSION@
+Comment=Start page
+Categories=System;Documentation;
+
+# Translations
+Name[ru]=Simply Linux @VERSION@
+Comment[ru]=Стартовая страница

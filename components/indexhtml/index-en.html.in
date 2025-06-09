@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Disto name in title -->
+    <title>@NAME@ @VERSION@@STATUS@</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="images/product.png" rel="shortcut icon" type="image/png" />
+</head>
+
+<body>
+    <section id="content">
+
+        <!-- Language selection -->
+        <div id="languages">
+            <a href="index-ru.html">Русский</a>
+        </div>
+
+        <!-- Disto name -->
+        <div id="title">@NAME@ @VERSION@</div>
+
+        <div id="main">
+            <!-- Links columns -->
+            <div class="grid">
+                <div class="grid-title"><img src="images/Logo_light_gray_basealt.png" alt="Basealt Ltd"></div>
+                <div class="grid-title"><img src="images/Logo_light_gray_simply_linux.png"
+                        alt="@NAME@ OS Distribution"></div>
+                <div class="grid-title"><img src="images/Logo_light_gray_usefull_links.png" alt="Useful Links"></div>
+            </div>
+            <div class="grid">
+                <div class="grid-cell side-pane">
+                    <ul>
+                        <li><a href="https://www.basealt.ru/en">Company Website</a></li>
+                        <li><a href="https://www.basealt.ru/en/contacts/">Contacts</a></li>
+                        <li><a href="https://www.basealt.ru/support/">Technical Support</a></li>
+                        <li><a href="https://vk.com/altlinux">VK Community</a></li>
+                        <li><a href="https://t.me/alt_linux">Telegram Channel</a></li>
+                        <li><a href="https://dzen.ru/id/621e0fc88b26266f04745c3f">Dzen Video Blog</a></li>
+                    </ul>
+                </div>
+                <div class="grid-cell central-pane">
+                    <ul>
+                        <li><a href="https://www.basealt.ru/en/products#SL">Product Page</a></li>
+                        <li><a href="file:///usr/share/doc/documentation/index.html">User Manual</a></li>
+                        <li><a href="https://docs.altlinux.org/ru-RU/index.html#alt-simply">Online
+                                Documentation</a></li>
+                        <li><a href="https://bugzilla.altlinux.org">Report a Bug</a></li>
+                        <li><a href="https://www.basealt.ru/product-feedback">Leave Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="grid-cell side-pane">
+                    <ul>
+                        <li><a href="https://forum.altlinux.org">User Forum</a></li>
+                        <li><a href="https://packages.altlinux.org/en/p11/">Software Repository</a></li>
+                        <li><a href="https://altlinux.org/FAQ">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="search">
+                <!-- Search pane -->
+                <form action="https://yandex.ru/search?text={text}" method="get">
+                    <img src="images/magnifier.png" alt="Search on online resources">
+                    <input id="search_string" type="search" name="text" size="35">
+                    <input type="hidden" name="site" value="altlinux.org">
+                    <input id="search_button" type="submit" value="Search in Internet">
+                </form>
+            </div>
+
+            <!-- Copyright information -->
+            <footer id="footer">
+                <div id="left_footer">&copy; 2017-@YEAR@ Basealt Ltd. All rights reserved.</div>
+                <div id="right_footer">
+                    Tel/fax: +7 (495) 123-4799<br>
+                    75 Butyrskaya<br>
+                    Moscow<br>
+                    Russian Federation<br>
+                    127015
+                </div>
+            </footer>
+
+        </div>
+
+    </section>
+</body>
